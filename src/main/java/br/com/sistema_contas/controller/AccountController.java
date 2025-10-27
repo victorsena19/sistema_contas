@@ -31,7 +31,7 @@ public class AccountController {
         return ResponseEntity.ok(accountService.getAccountByUserStatusPending());
     }
 
-    @GetMapping("/type")
+    @GetMapping
     public ResponseEntity<AccountTypeDTO> getAccountByUserAndAccountType(@RequestParam AccountType type){
         return ResponseEntity.ok(accountService.getAccountByUserAndAccountType(type));
     }
