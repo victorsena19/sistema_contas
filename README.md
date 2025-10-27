@@ -27,7 +27,7 @@ Este projeto para controlar contas a pagar e receber do usuario que as criou.
 ---
 
 ## Como rodar o projeto
-- Clone o projeto do GitHub
+- Clone o projeto do GitHub https://github.com/victorsena19/sistema_contas.git
 - Start seu docker
 - Abra o projeto em alguma IDE e vá no terminal
 - Digite o comando docker-compose up --build
