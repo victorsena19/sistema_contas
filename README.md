@@ -33,7 +33,7 @@ Este projeto para controlar contas a pagar e receber do usuario que as criou.
 - Digite o comando docker-compose up --build
 
 ## Rotas da Aplicação
-- Rota padrão para acessar localmente url = http://localhost:8080
+- Rota padrão para acessar localmente http://localhost:8080
 
 ### Account
 - Na rota url/account se trata das contas que o usuario cadastrou.
