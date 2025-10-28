@@ -28,6 +28,8 @@ Este projeto para controlar contas a pagar e receber do usuario que as criou.
 
 ## Como rodar o projeto
 - Clone o projeto do GitHub https://github.com/victorsena19/sistema_contas.git
+- Crie um arquivo .env com as variaveis: JWT_SECRET, DATABASE_URL, DATABASE_USERNAME, DATABASE_PASSWORD e coloque seus valores
+- É importe que o nome do Banco de dados seja "sistema_contas" para que seja criado automaticamente
 - Start seu docker
 - Abra o projeto em alguma IDE e vá no terminal
 - Digite o comando docker-compose up --build
